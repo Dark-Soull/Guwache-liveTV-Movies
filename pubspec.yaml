@@ -1,0 +1,77 @@
+name: fluttertest
+description: A new Flutter project.
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  #for using lotte animations
+  lottie: ^1.2.1
+
+  #for bottom bar
+  convex_bottom_bar: ^3.0.0
+
+  #for image slider
+  carousel_slider: ^4.0.0
+  dio: ^4.0.4
+
+  #for api loading
+  http: ^0.13.4
+
+  #for text marquee...
+  marquee: ^2.2.0
+
+  #for sidemenu
+  shrink_sidemenu: ^2.0.0
+  liquid_ui: ^1.0.0+9
+
+  #for players
+  youtube_player_flutter: ^8.0.0
+  flutter_vlc_player: ^6.0.5
+
+  #for screen wakeup
+  wakelock: ^0.6.1+1
+
+  #for skeleton loading
+  skeleton_text: ^3.0.0
+
+  #for image Caching
+  cached_network_image: ^3.2.0
+  flutter_cache_manager: ^3.3.0
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - animations/
+    - Assets/
+
+  fonts:
+    - family: PaytoneOne
+      fonts:
+        - asset: Fonts/PaytoneOne.ttf
